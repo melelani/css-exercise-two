@@ -1,0 +1,85 @@
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  background-color: #e0e0e0; /*made background an almost-white gray*/
+  color: #37474f; /*made text a dark grey*/
+  line-height: 120%;
+}
+
+nav {
+  background-color: #FF4F00; /*made banner international orange*/
+  float: left;
+  position: fixed;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2.3em;
+  font-weight: 900;
+  line-height: 170%;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.75em
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 100%;
+}
+
+figcaption {
+  font-size: .73em;
+  font-style: italic;
+}
+
+a{
+  text-decoration:none;
+}
+a:link { color:#dcdcdc; } /* non-visited: milk **/
+a:visited { color:#bcaaa4; } /* visited: puddle grey */
+a:hover { color:#212121; } /* hover: coal grey */
+a:active { color:#bf360c; } /* selected: burnt orange*/
+
+
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 70%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+
+article {
+  padding-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
